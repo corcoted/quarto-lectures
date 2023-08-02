@@ -1,0 +1,15 @@
+name: lecture-notes
+
+channels:
+  - conda-forge
+  - defaults
+
+# adjust below as needed
+dependencies:
+  - python
+  - ipykernel
+  - jupyter # can probably omit this, but it makes rendering easier
+  - matplotlib
+  - numpy
+  - scipy
+  - sympy

@@ -1,0 +1,1 @@
+Figure files that go in the general lecture template, like logos, common background images, etc.

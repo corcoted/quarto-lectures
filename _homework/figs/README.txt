@@ -1,0 +1,1 @@
+Placeholder for the homework/figs folder.

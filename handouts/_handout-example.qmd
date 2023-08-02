@@ -1,0 +1,13 @@
+---
+title: "Example handout"
+subtitle: "subtitle"
+date: "2/16/2023"
+format:
+  pdf:
+    papersize: letter
+    classoption: 11pt
+    geometry: margin=0.75in
+    colorlinks: true
+---
+
+The document will be compiled as a `pdf` and placed in the `handouts/` folder of the website.

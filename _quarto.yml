@@ -1,0 +1,31 @@
+project:
+  type: website
+  preview: 
+    watch-inputs: true
+    navigate: true
+    timeout: 300
+    port: 8256
+
+website:
+  title: "Lecture notes website"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Lecture Notes"
+        contents:
+        - auto: "lectures/lecture-*.qmd"
+      - section: "Handouts"
+        contents:
+        - auto: "handouts/*.qmd"
+      
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
+
+

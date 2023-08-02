@@ -1,0 +1,27 @@
+---
+title: "Homework example"
+subtitle: "Course"
+date: "2/21/2023"
+format:
+  pdf:
+    papersize: letter
+    classoption: 11pt
+    geometry: margin=0.75in
+    colorlinks: true
+    fig-align: center
+    fontfamily: libertinus
+---
+
+Template for a homework handout.  This can be manually rendered using `quarto render`, but will *not* be uploaded to the website.
+
+Figures are stored in the `figs` folder to keep things organized.  (I suggest one subfolder per document.)
+
+12 points total, 2 points each
+
+## Problem 1
+Problem statement.  Can include figures, TeX, etc.
+
+### Solution
+XXX
+
+The solutions can be hidden inside html comment tags for simplicity.

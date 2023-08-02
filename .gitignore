@@ -1,0 +1,7 @@
+/.vscode/
+/.quarto/
+/_site/
+/.luarc.json
+/env/
+*checkpoint.qmd
+/site_libs/

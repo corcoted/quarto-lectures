@@ -4,9 +4,9 @@ Lecture notes template for Quarto, (c) 2023 by [Ted Corcovilos](https://corcovil
 Prepare the conda python environment, activate, and register the kernel.
 
 ```
-conda env create --prefix ./env -f environment.yml
+conda env create --prefix ./env --file environment.yml
 conda activate ./env
-python -m ipykernel --user -n KERNEL_NAME --display-name "Python (KERNEL_NAME)"
+python -m ipykernel --user --name KERNEL_NAME --display-name "Python (KERNEL_NAME)"
 ```
 
 (Replace KERNEL_NAME above to make the kernel unique.  Use this name in the `kernelspec` for compiled qmd files.)

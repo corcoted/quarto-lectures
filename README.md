@@ -1,4 +1,4 @@
-Lecture notes template for Quarto, (c) 2023 by [Ted Corcovilos](https://corcovilolabs.com), [Duquesne University](https://www.duq.edu)
+Lecture notes template for Quarto, (c) 2023 by [Ted Corcovilos](https://corcoviloslabs.com), [Duquesne University](https://www.duq.edu)
 
 ## Setup for building
 

@@ -1,6 +1,6 @@
 ---
 title: "Lecture template"
-subtitle: "subtit;e"
+subtitle: "subtitle"
 
 ---
 

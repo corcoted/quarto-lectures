@@ -13,3 +13,4 @@ format:
     height: 1080
     logo: "figs/template/DU_LOGO_redblue.svg"
     footer: "[Course homepage](/index.html)"
+    multiplex: false

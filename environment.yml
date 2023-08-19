@@ -9,6 +9,7 @@ dependencies:
   - python
   - ipykernel
   - jupyter # can probably omit this, but it makes rendering easier
+  - jupyter-cache # speeds up development
   - matplotlib
   - numpy
   - scipy

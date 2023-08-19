@@ -50,7 +50,7 @@ Some potentially useful extensions:
 
 - [quarto-ext/shinylive](https://github.com/quarto-ext/shinylive) run python code *in the browser*. (NB: broken as of quarto version 1.4.333.  Check back in the future to see if it is fixed.)
 - [mloubout/critic-markup](https://github.com/mloubout/critic-markup) highlighting shortcuts (intended for tracking changes, but useful in general)
-- [jmbuhr/qrcode](https://github.com/jmbuhr/quarto-qrcode) generate QR codes directly into the files
+- [jmbuhr/quarto-qrcode](https://github.com/jmbuhr/quarto-qrcode) generate QR codes directly into the files
 - [schochastics/quarto-nutshell](https://github.com/schochastics/quarto-nutshell) collapsible annotations
 - [EmilHvitfeldt/quarto-roughnotation](https://github.com/EmilHvitfeldt/quarto-roughnotation) handwritten-looking slide annotations
 - [shafayetShafee/reveal-header](https://github.com/shafayetShafee/reveal-header) add headers to slides (footers are already possible in the default format)

@@ -1,0 +1,31 @@
+---
+title: "Lecture 1: Title"
+subtitle: "Chapter X"
+date: "XX/XX/2023"
+order: 1
+format: revealjs
+---
+
+Filenames must be `lecture-XX.qmd` where `XX` is a number.  The lecture number should also be placed in the `order` tag above.
+
+## Announcements
+
+::: {.incremental}
+- blah 
+- blah
+:::
+
+## Daily Quiz
+blah
+
+# Topic 1
+blah
+
+# Topic 2
+
+## Weekly Reflection
+
+blah
+
+## Next time
+blah

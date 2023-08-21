@@ -14,3 +14,8 @@ format:
     logo: "figs/template/DU_LOGO_redblue.svg"
     footer: "[Course homepage](/index.html)"
     multiplex: false
+preview: 
+  watch-inputs: true
+  navigate: true
+  timeout: 300
+  port: 8256

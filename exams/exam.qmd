@@ -29,7 +29,8 @@ commands:
 
 ---
 
-<!-- Reveal hooks for typical environments and commands from the LaTeX exam class. -->
+<!-- Create hooks for typical environments and commands from the LaTeX exam class. -->
+<!-- TODO the question, part, subpart, and choice commands would probably be more approporiate as shortcodes, but that's extra work. -->
 
 # Heading
 ## Subheading

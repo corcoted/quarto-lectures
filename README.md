@@ -24,7 +24,8 @@ Add any python libraries needed to the `environment.yml` file. In theory we coul
 
 -   `lectures/` - Lectures built as `revealjs` presentations under quarto. These are built as a website that may be published, e.g. to GitHub pages.
 -   `handouts/` - Additional documents intended as handouts for the students. These are typically `pdf` outputs, but could be `html` if a web version makes sense.
--   `_homework/` - Homework source files that *do not* get uploaded to the website.
+-   `homework/` - Homework source files that *do not* get uploaded to the website.
+-   `exam/` - Exam source files that *do not* get uploaded to the website.
 
 ## Customizing
 
@@ -34,7 +35,7 @@ Some files to adjust for overall configuration
 - `_quarto.yml` - overall formatting, shared metadata
 - `index.qmd` - the website homepage
 - `lectures/_metadata.yml` - formatting and metadata for the lecture notes slides
-- `lectures/mythese.scss` - style file for the lecture notes
+- `lectures/mytheme.scss` - style file for the lecture notes
 
 ### Quarto extensions
 
@@ -48,6 +49,7 @@ from this repos root directory.
 
 Some potentially useful extensions:
 
+- [quarto-ext/latex-environments](https://github.com/quarto-ext/latex-environment) helps use LaTeX environments in markdown source files.  (*Installed by default in the current version*)
 - [quarto-ext/shinylive](https://github.com/quarto-ext/shinylive) run python code *in the browser*. (NB: broken as of quarto version 1.4.333.  Check back in the future to see if it is fixed.)
 - [mloubout/critic-markup](https://github.com/mloubout/critic-markup) highlighting shortcuts (intended for tracking changes, but useful in general)
 - [jmbuhr/quarto-qrcode](https://github.com/jmbuhr/quarto-qrcode) generate QR codes directly into the files
@@ -61,4 +63,5 @@ Templates are included for
 
 - Lecture notes (revealjs format): `lectures/_lecture-template.qmd`
 - Handouts (pdf): `handouts/_handout-example.qmd`
-- Homework files/solutions (pdf): `_homework/_hw-template-soln.qmd`
+- Homework files/solutions (pdf): `homework/_hw-template-soln.qmd`
+- Exam files/solutions (pdf): `exams/_exam-template.qmd`

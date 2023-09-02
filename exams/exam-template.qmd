@@ -19,6 +19,7 @@ environments:
   - EnvUplevel
   - EnvFullwidth
   - solution
+
 commands:
   - question
   - part
@@ -30,7 +31,7 @@ commands:
 ---
 
 <!-- Create hooks for typical environments and commands from the LaTeX exam class. -->
-<!-- TODO the question, part, subpart, and choice commands would probably be more approporiate as shortcodes, but that's extra work. -->
+<!-- TODO the question, part, subpart, and choice commands would probably be more appropriate as shortcodes, but that's extra work. -->
 
 # Heading
 ## Subheading
@@ -43,8 +44,9 @@ What is your name?
 []{.question}
 What is your quest?
 
-[]{.question}
-What is your favorite color?
+:::{.solution}
+answer here
+:::
 
 []{.question}
 What is the airspeed of an unladen swallow?
@@ -52,6 +54,8 @@ What is the airspeed of an unladen swallow?
 :::{.parts}
 []{.part}
 African or European swallow?
+
+
 :::
 
 :::

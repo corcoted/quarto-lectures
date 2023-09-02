@@ -1,0 +1,56 @@
+---
+title: "Exam Template"
+subtitle: "subtitle"
+date: "9/2/2023"
+format:
+  pdf:
+    documentclass: exam
+    papersize: letter
+    classoption: 11pt
+    geometry: margin=0.75in
+    colorlinks: true
+filters:
+  - latex-environment
+environments:
+  - questions
+  - parts
+  - subparts
+  - choices
+  - EnvUplevel
+  - EnvFullwidth
+  - solution
+commands:
+  - question
+  - part
+  - subpart
+  - choice
+  - uplevel
+  - fullwidth
+
+---
+
+<!-- Reveal hooks for typical environments and commands from the LaTeX exam class. -->
+
+# Heading
+## Subheading
+
+:::{.questions}
+
+[]{.question}
+What is your name?
+
+[]{.question}
+What is your quest?
+
+[]{.question}
+What is your favorite color?
+
+[]{.question}
+What is the airspeed of an unladen swallow?
+
+:::{.parts}
+[]{.part}
+African or European swallow?
+:::
+
+:::

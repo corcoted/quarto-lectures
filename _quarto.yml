@@ -5,6 +5,10 @@ project:
     navigate: true
     timeout: 300
     port: 8256
+  render:
+    - lectures/*.qmd
+    - handouts/*.qmd
+    - index.qmd
 
 website:
   title: "Lecture notes website"

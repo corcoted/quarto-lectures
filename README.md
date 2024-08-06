@@ -24,7 +24,7 @@ Add any python libraries needed to the `environment.yml` file. In theory we coul
 
 -   `lectures/` - Lectures built as `revealjs` presentations under quarto. These are built as a website that may be published, e.g. to GitHub pages.
 -   `handouts/` - Additional documents intended as handouts for the students. These are typically `pdf` outputs, but could be `html` if a web version makes sense.
--   `_homework/` - Homework source files that *do not* get uploaded to the website.
+-   `homework/` - Homework source files that *do not* get uploaded to the website.
 
 ## Customizing
 
@@ -44,7 +44,7 @@ Some files to adjust for overall configuration
 quarto add user/repo
 ```
 
-from this repos root directory.
+from this repo's root directory.
 
 Some potentially useful extensions:
 
@@ -54,6 +54,7 @@ Some potentially useful extensions:
 - [schochastics/quarto-nutshell](https://github.com/schochastics/quarto-nutshell) collapsible annotations
 - [EmilHvitfeldt/quarto-roughnotation](https://github.com/EmilHvitfeldt/quarto-roughnotation) handwritten-looking slide annotations
 - [shafayetShafee/reveal-header](https://github.com/shafayetShafee/reveal-header) add headers to slides (footers are already possible in the default format)
+- [quarto-ext/pointer](https://github.com/quarto-ext/pointer) change the mouse pointer to be more visible in presentations
 
 ## Templates
 

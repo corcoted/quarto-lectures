@@ -2,16 +2,15 @@ author: "Ted Corcovilos"
 institute: "Duquesne University"
 format:
   revealjs:
-    theme: [simple, mytheme.scss]
+    width: 85%
     slide-number: true
+    theme: 
+      - mytheme.scss
     chalkboard:
       theme: whiteboard
     preview-links: true
     controls: true
     fig-align: center
-    width: 1920
-    height: 1080
-    logo: "figs/template/DU_LOGO_redblue.svg"
     footer: "[Course homepage](/index.html)"
     multiplex: false
 preview: 

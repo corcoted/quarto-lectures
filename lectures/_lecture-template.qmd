@@ -1,7 +1,8 @@
 ---
-title: "Lecture XXX: Title"
-subtitle: "Chapter X"
-date: "XX/XX/2023"
+title: "Lecture XX: Title"
+subtitle: "Chapter XX"
+date: 2025-01-01
+date-format: long
 order: 99
 format: revealjs
 ---
@@ -12,6 +13,7 @@ Filenames must be `lecture-XX.qmd` where `XX` is a number.  The lecture number s
 
 ::: {.incremental}
 - blah 
+- blah
 - blah
 :::
 

@@ -1,0 +1,37 @@
+logo:
+  images:
+    duq-logo:
+      path: /lectures/figs/template/DU_LOGO_redblue.svg
+      alt: "Duquesne University Logo"
+  medium: duq-logo
+
+color:
+  palette: 
+    white: "#ffffff"
+    black: "#000000"
+    blue: "#012169"
+    red: "#BA0C2F"
+    blue2: "#59CBE8"
+    blue3: "#00A3E0"
+    red2: "#E40046"
+    green: "#00ff00"
+  background: white
+  foreground: black
+  primary: blue
+  secondary: red
+  tertiary: blue2
+
+typography:
+  fonts:
+    - family: News Cycle
+      source: google
+      weight: [400, 700]
+      style: normal
+    - family: Lato
+      source: google
+      weight: [400, 700]
+      style: [normal, italic]
+  base:
+    family: Lato
+  headings:
+    family: News Cycle

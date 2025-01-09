@@ -1,7 +1,8 @@
 ---
 title: "Lecture 1: Title"
 subtitle: "Chapter X"
-date: "XX/XX/2023"
+date: 2025-01-01
+date-format: long
 order: 1
 format: revealjs
 ---

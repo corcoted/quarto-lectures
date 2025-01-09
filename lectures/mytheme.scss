@@ -5,3 +5,28 @@ $presentation-font-size-root:  36px !default;
 /*-- scss:rules --*/
 
 .center{text-align:center;}
+.sticky-note{border-style:solid; border-width:1px; border-color:black; background-color:lightyellow; padding:10px; font-size:80%;}
+.float-right{float:right; padding-left:20px;}
+.float-left{float:left; padding-right:20px;}
+
+.tight-list{
+  ul li {margin-top: 5px !important; margin-bottom: 0px !important; padding: 0px !important;};
+  ul li ul li {margin-top: 5px; margin-bottom: 0px; padding: 0px; font-size:90%;
+}
+}
+
+/*-- colors (these may overwrite branding) --*/
+.red{color:red;}
+.blue{color:blue;}
+.gray{color:gray;}
+.black{color: black;}
+.transparent{color: transparent;}
+
+
+/*-- MathJaX tuning --*/
+.math.inline {
+    font-size: 95%;
+  }
+  .math.display {
+    font-size: 95%;
+  }

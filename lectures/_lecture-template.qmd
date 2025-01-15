@@ -7,9 +7,14 @@ order: 99
 format: revealjs
 ---
 
+<!--
 Filenames must be `lecture-XX.qmd` where `XX` is a number.  The lecture number should also be placed in the `order` tag above.
+-->
 
 ## Announcements
+
+<!-- MathJax setup -->
+{{< include _mathjax.qmd >}}
 
 ::: {.incremental}
 - blah 

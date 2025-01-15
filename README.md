@@ -36,6 +36,8 @@ Some files to adjust for overall configuration
 - `lectures/_metadata.yml` - formatting and metadata for the lecture notes slides
 - `lectures/mythese.scss` - style file for the lecture notes
 
+See also [awesome-quarto](https://github.com/mcanouil/awesome-quarto)
+
 ### Quarto extensions
 
 [Quarto extensions](https://quarto.org/docs/extensions/) must be [installed manually](https://quarto.org/docs/extensions/managing.html) after cloning this template repo.  Generally these are installed directly from GitHub by running

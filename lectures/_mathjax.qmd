@@ -1,0 +1,18 @@
+
+<!-- MathJax macros -->
+:::{.hidden}
+$$
+% mathjax includes
+\newcommand{\ihat}{\hat{\mathbf{\imath}}}
+\newcommand{\jhat}{\hat{\mathbf{\jmath}}}
+\newcommand{\khat}{\hat{\mathbf{k}}}
+\newcommand{\rhat}{\hat{\mathbf{r}}}
+\newcommand{\bvec}[1]{\vec{\mathbf{#1}}}
+\newcommand{\deg}{°}
+\newcommand{\frag}[1]{\class{fragment}{#1}} %NB This doesn't work in print display
+\newcommand{\u}[1]{\,\mathrm{#1}} %unit shortcut
+\newcommand{\ee}[1]{\times{10}^{#1}} % exponent
+\newcommand{\bref}[1]{{\color{blue}{(#1)}}}
+\require{cancel}
+$$
+:::

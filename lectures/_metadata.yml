@@ -13,6 +13,15 @@ format:
     fig-align: center
     footer: "[Course homepage](/index.html)"
     multiplex: false
+    navigation-mode: linear
+    pdf-max-pages-per-slide: 2
+    pointer:
+      pointerSize: 24
+revealjs-plugins:
+  - pointer
+execute:
+  freeze: auto
+  cache: true
 preview: 
   watch-inputs: true
   navigate: true
